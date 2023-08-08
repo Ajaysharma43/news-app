@@ -1,0 +1,103 @@
+#body {
+    background-image:url("./assests/vaza-tsvety-fon-buket-vase-flowers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: grid;
+    
+}
+
+#login-body {
+    background-color: white;
+    height: 300px;
+    width: 377px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 11px 11px 10px black;
+    position: relative;
+}
+
+#fname {
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 79px;
+    margin-top: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+#fname:hover{
+    transform: scale(1.1);
+}
+
+#password {
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 79px;
+    margin-top: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+#password:hover{
+    transform: scale(1.1);
+}
+
+#login {
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 79px;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: rgb(42, 42, 224);
+    transition: 0.5s;
+    
+}
+
+#login:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+#HOME {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    background :orange;
+    transition: 0.5s;
+    font-size: 15px;
+}
+#HOME:hover {
+    background: gold;
+    transform: scale(1.1);
+}
+
+#signup {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    background :orange;
+    transition: 0.5s;
+}
+#signup:hover{
+    background: orangered;
+    transform: scale(1.1);
+}
+/* @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* #body {
+      width: 100%;
+      height: 100%;
+    }
+     */ 
+     [id*="body"] {
+        background-size: cover;
+    background-repeat: no-repeat;
+      }
+
+      
+
+
+

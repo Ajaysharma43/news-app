@@ -1,0 +1,61 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="./BOOTSTRAP/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: black; cursor: pointer black">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="./assests/Add_a_heading-removebg-preview.png" id="logo">
+          </div>
+          <ul class="nav navbar-nav">
+            
+            <li class="hover-link nav-item" id="ipl" onclick="onNavItemclick('ipl')">IPL</li>
+           <li class="hover-link nav-item" id="anime" onclick="onNavItemclick('anime')">ANIME</li>
+           <li class="hover-link nav-item" id="anime" onclick="onNavItemclick('finance')"> FINANCE</li>
+           <li class="hover-link nav-item" id="anime" onclick="onNavItemclick('SOCIAL MEDIA')">SOCIAL MEDIA</li>
+          
+          </ul>
+          
+          <div>
+            <a href="./login.html" ><input type="login" id="login" placeholder="login"></a>
+            <input type="text" id="search-text" class="news-input" placeholder="search">
+            <button id="search-button" class="search-button">search</button>
+          </div>
+            
+        </div>
+      </nav>
+
+      <div id="slides" class="" style="max-width:500px">
+        <a href="https://www.hindustantimes.com/entertainment/anime/one-pieces-gear-5-episode-shatters-servers-of-crunchyroll-history-has-been-made-in-anime-world-claim-fans-101691295587656.html"><img class="mySlides" src="./assests/monkey_d__luffy_gear_5_hd_one_piece_2.jpg" ></a>
+        <a href="https://indianexpress.com/section/technology/social/"><img class="mySlides" src="./assests/twitter.jpg" ></a>
+        <a href="https://www.skymetweather.com/content/weather-news-and-analysis/monsoon-rain-returns-to-punjab-and-haryana-expect-moderate-showers-today/"><img class="mySlides" src="./assests/rain-in-punjab-website.jpg" ></a>
+      </div>
+
+      <main>
+        <div class="cards-container container flex" id = "cards-container"></div>
+      </main>
+            
+      <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img  src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+
+    
+    <script src="./main.js"></script>
+
+    
+</body>
+</html>

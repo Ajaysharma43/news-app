@@ -1,0 +1,167 @@
+#data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 360px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 8px;
+    cursor: help;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255,0.5);
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
+  color: black;
+}
+
+.card-header img{
+    height: 200px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#news-title {
+    font-family: cursive;
+    font-size: 20px;
+    transition: 1s;
+}
+
+#news-title:hover{
+    color: rgba(0, 0, 0, 0.359);
+}
+
+#template-news-card {
+    padding-bottom: 50px;
+}
+
+#news-img {
+    border-radius: 10px;
+}
+
+*::selection {
+    background-color: aqua;
+    color: black;
+}
+
+#ipl {
+    color: white;
+    margin-right: 10px;
+    transition: 1s;
+}
+#ipl:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#ipl:active{
+    color: red;
+}
+
+
+#anime {
+    color: white;
+    margin-right: 10px;
+    transition: 1s;
+}
+#anime:hover{
+    color: aqua;
+    cursor:pointer;
+    transform: scale(1.5);
+}
+#anime:active{
+    color: red;
+}
+
+#login {
+    height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+}
+#login:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 30px;
+}
+
+
+#slides {
+    justify-content: center;
+    display: grid;
+}
+
+@media screen and (min-width : 330px) {
+    .mySlides {
+        margin-left: 500px;
+        height: 300px;
+        justify-content: center;
+    }
+}
+@media screen and (min-width : 992px) {
+    .mySlides {
+        margin-left: 900px;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    #cards-container {
+        display: inline;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width : 330px) {
+    #cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+
+#logo {
+    height: 60px;
+    transition: 1s;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#search-text {
+    border-radius: 5px;
+    font-family: cursive;
+    
+    transition: 0.5s;
+}
+#search-text:hover{
+    transform: scale(1.1);
+}
+
+#search-button {
+    border-radius: 5px;
+    transition: 2s;
+}
+#search-button:hover {
+    background: lightblue;
+}
+
