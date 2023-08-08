@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <title>BootStrap Document</title>
+    <body>
+        <h1 class="page-header">Welcome to BootStrap</h1>
+          <!--1.download bootstrap 3
+          2.installing bootstrap (using npm)
+          3.using bootstrap cdm -->
+          <div class="container-fluid">
+            <h1>Welcome to BootStrap</h1>
+        </div>
+
+        <div class="container">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, rem voluptate! Hic sint natus, ipsa, quidem ipsum odio ad quibusdam, maiores repudiandae reiciendis laborum ullam laboriosam ab ducimus illo non!</p> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, rem voluptate! Hic sint natus, ipsa, quidem ipsum odio ad quibusdam, maiores repudiandae reiciendis laborum ullam laboriosam ab ducimus illo non!</p> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, rem voluptate! Hic sint natus, ipsa, quidem ipsum odio ad quibusdam, maiores repudiandae reiciendis laborum ullam laboriosam ab ducimus illo non!</p> 
+        
+
+        <hr/>
+
+        <h1 class="text-left">left-side</h1>
+        <h1 class="text-right">right-side</h1>
+        <h1 class="text-center">center</h1>
+
+        <hr/>
+
+        <h1>contextual classes :-</h1>
+       <!-- primary = blue , success = green , danger = red , muted = gray , info = light-blue , warning = yellow/orangish -->
+
+       <h3 class="text-primary">contextual classes = primary</h3>
+       <h3 class="text-success">contextual classes = success</h3>
+       <h3 class="text-danger">contextual classes = danger</h3>
+       <h3 class="text-muted">contextual classes = muted</h3>
+       <h3 class="text-info">contextual classes = info</h3>
+       <h3 class="text-warning">contextual classes = warning</h3>
+
+       <hr/>
+
+       <h3 class="bg-primary">contextual classes = primary</h3>
+       <h3 class="bg-success">contextual classes = success</h3>
+       <h3 class="bg-danger">contextual classes = danger</h3>
+       <h3 class="bg-muted">contextual classes = muted</h3>
+       <h3 class="bg-info">contextual classes = info</h3>
+       <h3 class="bg-warning">contextual classes = warning</h3>
+
+       <hr/>
+
+       <h3 class="text-primary bg-primary">contextual classes = primary</h3>
+       <h3 class="text-success bg-warning">contextual classes = success</h3>
+       <h3 class="text-danger bg-info">contextual classes = danger</h3>
+       <h3 class="text-muted bg-primary">contextual classes = muted</h3>
+       <h3 class="text-info bg-success">contextual classes = info</h3>
+       <h3 class="text-warning bg-danger">contextual classes = warning</h3>
+
+       <hr/>
+
+       <h3>buttons / links and anchors :-</h3>
+       <button class="btn btn-primary">button</button>
+       <input class="btn btn-warning" type="submit" value="submit">
+       <a class="btn btn-success" href="#">anchors</a>
+
+       <h3>button sizes</h3>
+       <button class="btn btn-primary btn-sl">button</button>
+       <button class="btn btn-primary btn-lg">button</button>
+       <button class="btn btn-primary btn-xs">button</button>
+
+       <hr/>
+<h1>Table:-</h1>
+<table class="table table-bordered table-condensed table-hover">
+    <tr>
+        <td>emp_id</td>
+        <td>emp_name</td>
+        <td>emp_email</td>
+        <td>emo_designation</td>
+    </tr>
+    <tr>
+        <td>2101003049</td>
+        <td>abhay</td>
+        <td>abhay@gmail.com</td>
+        <td>employe</td>
+    </tr>
+    <tr>
+        <td>2101003050</td>
+        <td>adithya</td>
+        <td>adithya@gmail.com</td>
+        <td>employe</td>
+    </tr>
+</table>
+
+<hr/>
+
+<h3>Forms</h3>
+<form>
+    <div class="form-group" >
+        <input class="form-control"  type="text" placeholder="enter your name"/>
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="email" placeholder="enter your email">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="password" placeholder="password">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="date">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="range">
+    </div>
+    <div class="form-group">
+        <label>enter your gender</label>
+    <input type="checkbox"> male 
+    <input type="checkbox"> female
+    <input type="checkbox"> others
+    </div>
+    <div class="form-group">
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>upload your document</label>
+    <input class="form-control" type="file">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="color">
+    </div>
+    <div class="form-group">
+        <button class="form-control" onclick="alert('btn clicked')">click</button>
+    </div>
+    <div class="form-group">
+        <button class="form-control" onclick="console.log('btn clicked')">click</button>
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="submit">
+    </div>
+    
+</form>
+    </div>
+
+    <hr/>
+
+    <h3>navigation bar</h3>
+    <ul class="list-unstyled">
+        <li>first</li>
+        <li>first</li>
+        <li>first</li>
+        <li>first</li>
+        <li>first</li>
+    </ul>
+
+    <ol style="display: flex; justify-content: space-between;" class="list-unstyled list-inline">
+        <li><a href="#">home</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact us</a></li>
+    </ol>
+
+    <hr/>
+
+    <h3>pannels:-</h3>
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+            <h3 style="text-align: center;">pannel heading</h3>
+        </div>
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione rerum in harum, voluptate aliquid, laboriosam laudantium dolorum quibusdam pariatur, exercitationem vitae rem numquam debitis. Nisi debitis, cumque ad natus iste veniam amet eaque pariatur qui ducimus consequuntur atque eius similique quas commodi quos tempora illo odio dolores quidem. Tempore.</p>
+        </div>
+    </div>
+</div>
+
+<hr/>
+
+<div class="container-fluid">
+
+    <h3>grids</h3>
+</div>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-4">
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 style="text-align: center;">panel heading</h4>
+    </div>
+<div class="panel-body">
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi debitis quibusdam est a beatae, eaque perferendis cupiditate quam ducimus dolorem adipisci quae blanditiis quisquam molestias quidem neque eum numquam dolor.</p>
+</div>
+</div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 style="text-align: center;">panel heading</h4>
+                </div>
+            <div class="panel-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi debitis quibusdam est a beatae, eaque perferendis cupiditate quam ducimus dolorem adipisci quae blanditiis quisquam molestias quidem neque eum numquam dolor.</p>
+            </div>
+            </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 style="text-align: center;">panel heading</h4>
+                            </div>
+                        <div class="panel-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi debitis quibusdam est a beatae, eaque perferendis cupiditate quam ducimus dolorem adipisci quae blanditiis quisquam molestias quidem neque eum numquam dolor.</p>
+                        </div>
+                        </div>
+             </div>
+    </div>
+</div>
+    <div style="height: 500px;">
+    </body>
+</head>
+</html>
