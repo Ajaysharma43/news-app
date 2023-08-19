@@ -81,3 +81,18 @@ function carousel() {
 }
 
 
+// Get a reference to the loader element
+const loader = document.getElementById("loader");
+
+// Show the loader after a delay
+setTimeout(() => {
+  loader.style.display = "block";
+}, 1000); // 1000 milliseconds (1 second) delay
+
+// Simulate some content loading
+setTimeout(() => {
+  // Hide the loader when the content is loaded
+  loader.style.display = "none";
+  // Display the actual content
+  document.getElementById("content").style.display = "block";
+}, 3000); // 3000 milliseconds (3 seconds) delay

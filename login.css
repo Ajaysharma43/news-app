@@ -15,7 +15,10 @@
     background-color: white;
     box-shadow: 11px 11px 10px black;
     position: relative;
+    transition: 0.5s;
 }
+
+
 
 #fname {
     height: 40px;
@@ -42,6 +45,9 @@
 }
 #password:hover{
     transform: scale(1.1);
+}
+#password:active{
+    color: red;
 }
 
 #login {
@@ -98,6 +104,3 @@
       }
 
       
-
-
-
